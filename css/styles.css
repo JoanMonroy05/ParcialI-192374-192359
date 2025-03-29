@@ -1,3 +1,4 @@
+/* GLOBALES */
 * {
     margin: 0;
     padding: 0;
@@ -27,6 +28,7 @@ a {
     height: 100vh;
 }
 
+/* Formularios */
 .contenedor {
     width: 100%;
     max-width: 40rem;
@@ -87,6 +89,7 @@ a {
     background-color: #1782b4;
 }
 
+/* Pagina Principal */
 header {
     width: 100%;
     height: 10rem;
