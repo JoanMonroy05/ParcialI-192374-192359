@@ -9,23 +9,31 @@
 <body>
     <div class="flex">
         <div class="contenedor">
-            <h2>Registrarse</h2>
-            <form action="" method="post" class="formulario">
+            <h2>Crea Cuenta en Nuestra App</h2>
+            <form action="" class="formulario">
                 <div class="form-input">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
                 </div>
                 <div class="form-input">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
                 </div>
                 <div class="form-input">
                     <label for="password">Contaseña</label>
-                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                    <input type="password" name="password" id="password" placeholder="Minimo 12 carecteres" required minlength="12" maxlength="20">
+                </div>
+                <div class="form-input">
+                    <label for="fecha">Fecha de Nacimiento</label>
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="form-input">
+                    <label for="telf">Telefono</label>
+                    <input type="tel" name="telf" id="telf" placeholder="Minimo 10 caracteres" minlength="10">
                 </div>
                 <button type="submit">Enviar</button>
             </form>
-            <p>Quieres iniciar sesión? <a href="index.html">accede</a></p>
+            <p>¿Ya tienes cuenta? <a href="login.html">Inicia Sesión</a></p>
         </div>
     </div>
 </body>

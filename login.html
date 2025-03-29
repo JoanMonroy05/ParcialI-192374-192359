@@ -9,19 +9,19 @@
 <body>
     <div class="flex">
         <div class="contenedor">
-            <h2>Inicia Sesión</h2>
-            <form action="" method="post" class="formulario">
+            <h2>Control de acceso</h2>
+            <form action="" class="formulario">
                 <div class="form-input">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="input-email" placeholder="Email" required>
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" name="email" id="input-email" placeholder="Ingrese su correo" required>
                 </div>
                 <div class="form-input">
                     <label for="password">Contaseña</label>
-                    <input type="password" name="password" id="password" placeholder="Contraseña" required>
+                    <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required minlength="12">
                 </div>
                 <button type="submit">Enviar</button>
             </form>
-            <p>No tienes una cuenta? <a href="registro.html">crear una</a></p>
+            <p>¿No tienes cuenta? <a href="register.html">Registrarte aquí</a></p>
         </div>
     </div>
 </body>
